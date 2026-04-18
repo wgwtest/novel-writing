@@ -1,5 +1,7 @@
 # Novel Writing
 
+[![Novel Writing social preview](assets/social-preview.png)](https://github.com/wgwtest/novel-writing)
+
 [![GitHub stars](https://img.shields.io/github/stars/wgwtest/novel-writing?style=social)](https://github.com/wgwtest/novel-writing/stargazers)
 [![GitHub release](https://img.shields.io/github/v/release/wgwtest/novel-writing)](https://github.com/wgwtest/novel-writing/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
