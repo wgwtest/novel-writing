@@ -1,0 +1,4 @@
+interface:
+  display_name: "Novel Writing"
+  short_description: "Plan, draft, and review fiction"
+  default_prompt: "Use $novel-writing to plan, draft, or review a fiction chapter."
