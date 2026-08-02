@@ -1,6 +1,6 @@
 ---
 name: novel-writing
-description: Use when planning, drafting, revising, or reviewing fiction chapters where character introduction, scene structure, style fidelity, or realism constraints matter.
+description: Use when planning, drafting, revising, or reviewing fiction where character anchoring, viewpoint drift, implausible knowledge or decisions, unnatural dialogue, scene or chapter continuity, style fidelity, or grounded physical and institutional causality matter.
 ---
 
 # Novel Writing
@@ -38,6 +38,8 @@ Use when the user is deciding what a chapter or scene should do before prose is 
 Read:
 
 - `references/planning.md`
+- `references/cognition-layers-and-language.md` when knowledge, motive, or disclosure drives decisions
+- `references/scene-causality-and-agency.md` for conflict, responsibility, action order, or chapter interfaces
 - `references/scene-and-structure.md` when chapter flow is the main concern
 - `references/realism-constraints.md` when the chapter depends on real-world limits
 
@@ -48,6 +50,8 @@ Use when the user wants new fiction prose, a rewrite of prose, or a continuation
 Read:
 
 - `references/character-introductions.md`
+- `references/cognition-layers-and-language.md` when decisions or dialogue depend on unequal knowledge, judgment, or motive
+- `references/scene-causality-and-agency.md` for conflict, movement, authority, or continuity
 - `references/scene-and-structure.md`
 - `references/style-fidelity.md`
 - `references/realism-constraints.md` when the scene depends on real-world constraints
@@ -81,12 +85,7 @@ When the fiction project is long enough that loading the entire formal draft wou
 
 ### Collaboration-state discipline
 
-- If the project tracks chapter state, treat chapters as the primary work object and raw-draft batches as source objects.
-- Distinguish drafted, confirmed, and synced states instead of collapsing them into a single notion of "done."
-- Do not treat generic approvals such as "continue", "ok", or "good" as confirmation unless the project rule explicitly says so.
-- Do not promote chapter facts into outline or setting sync unless the user or the local project rule explicitly allows that promotion.
-- If chapter-state files and chapter cards exist, read them before inferring workflow status from prose alone.
-- If an edit-record overview exists, read the recent records for workflow context, but treat chapter-state files and chapter cards as the source of current truth.
+For persistent chapter state, cross-session recovery, manuscript-layer synchronization, or parallel chapter ownership, use `novel-project-strategy`. Keep this skill focused on narrative work and adjacent-prose continuity.
 
 ## Hard Rules
 
@@ -130,6 +129,18 @@ Always separate:
 - what they can correctly infer
 
 Seeing something is not the same as understanding it. Getting close once is not the same as having time to inspect it.
+
+### Cognition Must Change Choice and Language
+
+Separate information distribution from epistemic status before consequential decisions or dialogue. Track what is shared, specialized, or private; then distinguish observation, report, judgment, intention, and misrecognition.
+
+Use shared understanding to constrain the scene without redundant exposition, specialized understanding to change risk or available methods, and individual cognition to determine what a character chooses, hides, distorts, tests, or says. Classify all of it relative to the current character, time, and audience.
+
+### Viewpoint Does Not Own Every Decision
+
+Separate the experiential center, problem owner, decision owner, domain actor, and execution owner. POV determines what pressure reaches the reader first; it does not automatically grant authority, expertise, or permanent control.
+
+Make consequential scenes legible as perception or misinterpretation, narrowed options, decision, action, consequence, and reassessment. Treat that chain as a diagnostic scaffold, not a mandatory formula or a ban on omniscient and multi-viewpoint fiction.
 
 ### Every Scene Segment Must Earn Its Place
 
@@ -178,13 +189,16 @@ If the fiction project already has local rules, style contracts, or manuscript-l
 5. Pull near-field full prose when revising language, style, or chapter continuity.
 6. Apply the hard rules before proposing prose changes.
 7. If reviewing, produce structured findings before any summary.
-8. If the task touches sensitive realism constraints and you are unsure, say what must be verified instead of bluffing.
+8. When delivering plain-text manuscript files, run the bundled checker as `python <skill-directory>/scripts/check_manuscript_text.py <file-or-directory>`; review warnings instead of treating them as automatic prose defects.
+9. If the task touches sensitive realism constraints and you are unsure, say what must be verified instead of bluffing.
 
 ## References
 
-- `references/planning.md`: chapter-task planning and POV control
-- `references/character-introductions.md`: first-entry rules for characters
-- `references/scene-and-structure.md`: scene progression and chapter shape
-- `references/style-fidelity.md`: preserving authorial texture during revision
-- `references/realism-constraints.md`: reality checks for institutions, bodies, and access limits
-- `references/revision-checklist.md`: structured review output
+- [Planning](references/planning.md): chapter tasks, optional planning aids, and entry/exit state
+- [Cognition Layers and Language](references/cognition-layers-and-language.md): information source, epistemic status, decisions, and disclosure
+- [Scene Causality and Agency](references/scene-causality-and-agency.md): POV pressure, responsibility, action topology, and continuity
+- [Character Introductions](references/character-introductions.md): first-entry rules for characters
+- [Scene and Structure](references/scene-and-structure.md): scene progression and chapter shape
+- [Style Fidelity](references/style-fidelity.md): preserving authorial texture during revision
+- [Realism Constraints](references/realism-constraints.md): institutions, bodies, crowds, spectacle, and access limits
+- [Revision Checklist](references/revision-checklist.md): structured review output and manuscript hygiene

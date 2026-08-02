@@ -1,4 +1,4 @@
 interface:
   display_name: "Novel Writing"
-  short_description: "Plan, draft, and review fiction"
-  default_prompt: "Use $novel-writing to plan, draft, or review a fiction chapter."
+  short_description: "Plan and revise causally grounded fiction"
+  default_prompt: "Use $novel-writing to plan, draft, or review fiction with clear viewpoint, character agency, continuity, and style fidelity."

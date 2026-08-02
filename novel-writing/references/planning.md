@@ -17,6 +17,14 @@ For every planning pass, produce:
 - `Required information`: what the reader must understand by the end
 - `Forbidden mistakes`: what this chapter must not accidentally do
 
+For high-conflict, professional, multi-party, or information-asymmetric scenes, also choose only the planning aids that materially affect the scene:
+
+- a cognition table from `cognition-layers-and-language.md`
+- a responsibility map from `scene-causality-and-agency.md`
+- an entry/exit state contract for adjacent-chapter continuity
+
+Do not force all three tables onto ordinary scenes.
+
 ## Planning Sequence
 
 ### 1. Name the chapter job
@@ -51,6 +59,8 @@ State:
 
 Do not write planning notes that exceed the chosen viewpoint unless the final prose will change viewpoint.
 
+For consequential conflict, also identify the problem owner, decision owner, domain actor, and execution owner. They may differ from the viewpoint character.
+
 ### 4. Decide information order
 
 List the order in which the reader should learn things.
@@ -74,6 +84,10 @@ Answer this before drafting:
 - what question or fear now drives the next chapter
 
 If nothing has changed, the scene is probably dead weight.
+
+### 6. Define the chapter interface when continuity matters
+
+Record the entry state inherited from adjacent prose and the exit state handed forward. Include positions, ongoing actions, injuries, key objects, unresolved questions, and the person who owns the next decision or execution.
 
 ## Common Planning Failures
 

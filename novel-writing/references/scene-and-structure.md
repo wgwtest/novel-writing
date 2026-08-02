@@ -2,6 +2,8 @@
 
 Use this file when planning or reviewing the shape of a chapter or scene.
 
+For character-level perception, authority, action order, dialogue adjacency, or cross-chapter state, also use `scene-causality-and-agency.md`.
+
 ## Core Principle
 
 A chapter is not just a container for material. It is a sequence of functional movements.
@@ -41,6 +43,8 @@ Within a chapter, segments should usually create:
 
 Flat repetition is not progression.
 
+Within consequential scenes, test whether perception or interpretation changes the available action, action creates a visible physical or social consequence, and that consequence changes the next judgment. Events placed beside each other are not automatically causal.
+
 ## Transition Checks
 
 When the prose moves between beats, check:
@@ -74,7 +78,7 @@ By the end of the chapter, something should be different:
 - a clue
 - an emotional state that creates forward pull
 
-Do not end on mere stopping. End on changed conditions.
+Do not end on mere stopping or on a line that only sounds conclusive. End on changed conditions, and hand the next chapter a concrete action, sound, decision, object, responsibility, or unresolved consequence.
 
 ## Common Structural Failures
 
@@ -83,6 +87,7 @@ Do not end on mere stopping. End on changed conditions.
 - middle segments that only restate the setup
 - a climax that is narrated faster than the lead-up
 - the narration explains a hidden motive too early and drains the reveal of force
+- an explanation appears before any character has evidence or reason to seek it
 - an ending that gives no new pressure
 
 ## Review Questions
