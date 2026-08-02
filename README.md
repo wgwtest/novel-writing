@@ -59,6 +59,13 @@ ln -s "$(pwd)/novel-writing/novel-writing" ~/.codex/skills/novel-writing
 
 Restart Codex after installing or updating the skill.
 
+On Windows, maintainers can install the development checkout as a junction with
+backup protection:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\install-local-dev-link.ps1
+```
+
 Installer-style inputs:
 
 - repo: `wgwtest/novel-writing`
@@ -67,6 +74,8 @@ Installer-style inputs:
 ## Repository Layout
 
 - `novel-writing/`: installable skill package
+- `scripts/`: local development and package validation helpers
+- `CODEX_START_HERE.md`: maintainer startup and release workflow
 - `README.md`: landing page for humans
 - `.github/`: templates for issues and pull requests
 
@@ -87,4 +96,9 @@ MIT. See [LICENSE](./LICENSE).
 
 ## Maintainer Note
 
-This public repository is synced from a separate source-of-truth workspace. Keep the root landing files and the installable package aligned in the same release.
+This repository is the source of truth for `novel-writing`. Edit the installable
+package only under `novel-writing/`; local Codex installations and copies in
+other repositories are runtime links or derived mirrors, never editable
+sources. Run
+`powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\check-package.ps1`
+before committing or releasing a change.

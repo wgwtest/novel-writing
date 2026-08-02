@@ -12,8 +12,10 @@ Thanks for improving this skill.
 
 ## Contribution Rules
 
+- Treat this repository as the only source of truth for `novel-writing`.
 - Keep the installable package inside `novel-writing/`.
 - Keep root files human-facing and package files skill-facing.
+- Never develop against a copied package under `.codex/skills` or another repository.
 - Do not add private manuscript excerpts unless you fully own them and want them public.
 - Prefer concrete prompts and diagnosis patterns over generic writing advice.
 - If you change workflow rules, update examples and root documentation in the same change.
@@ -23,6 +25,7 @@ Thanks for improving this skill.
 - explain the narrative problem or ambiguity being fixed
 - keep the scope narrow
 - update docs if behavior or packaging changed
+- run `powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\check-package.ps1`
 - verify the public package still installs cleanly from the `novel-writing/` path
 
 ## Issues
