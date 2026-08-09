@@ -7,13 +7,13 @@ description: Use when planning, drafting, revising, or reviewing fiction where c
 
 ## Overview
 
-Use this skill for fiction work that needs narrative craft, not just sentence-level cleanup. It is designed for three stages: planning a chapter, drafting or continuing prose, and reviewing finished fiction for concrete problems.
+Use this skill for fiction work that needs narrative craft, not just sentence-level cleanup. It is designed for three stages: planning a scene, chapter, arc, or whole story; drafting or continuing prose; and reviewing finished fiction for concrete problems.
 
 ## When to Use
 
 Use this skill when the user asks to:
 
-- plan a chapter, scene, arc, or reveal sequence
+- plan a chapter, scene, arc, volume, whole-story outline, story synopsis, canon document, or reveal sequence
 - continue or rewrite fiction prose
 - check whether a chapter is structurally sound
 - review whether characters are introduced clearly
@@ -33,11 +33,12 @@ First decide which stage the task belongs to.
 
 ### 1. Planning
 
-Use when the user is deciding what a chapter or scene should do before prose is written.
+Use when the user is deciding what a scene, chapter, arc, volume, or whole story should do before prose is written.
 
 Read:
 
-- `references/planning.md`
+- `references/planning.md` for scene- or chapter-level planning
+- `references/story-outline-and-causal-summary.md` for an arc, volume, or whole-story outline, a story synopsis, or a standalone canon/theory document
 - `references/cognition-layers-and-language.md` when knowledge, motive, or disclosure drives decisions
 - `references/scene-causality-and-agency.md` for conflict, responsibility, action order, or chapter interfaces
 - `references/scene-and-structure.md` when chapter flow is the main concern
@@ -195,6 +196,7 @@ If the fiction project already has local rules, style contracts, or manuscript-l
 ## References
 
 - [Planning](references/planning.md): chapter tasks, optional planning aids, and entry/exit state
+- [Story Outline and Causal Summary](references/story-outline-and-causal-summary.md): story-first ordering, causal bridges, knowledge layers, and final-form outline checks
 - [Cognition Layers and Language](references/cognition-layers-and-language.md): information source, epistemic status, decisions, and disclosure
 - [Scene Causality and Agency](references/scene-causality-and-agency.md): POV pressure, responsibility, action topology, and continuity
 - [Character Introductions](references/character-introductions.md): first-entry rules for characters

@@ -14,7 +14,7 @@ This skill is meant for longform fiction work where narrative judgment matters.
 
 It helps Codex:
 
-- plan chapters and scenes with actual narrative function
+- plan scenes, chapters, arcs, and whole stories with an explicit causal spine
 - draft or continue fiction prose without collapsing everything into summary
 - review prose with concrete findings instead of soft impressions
 - protect style-bearing material during revision
@@ -24,7 +24,8 @@ It helps Codex:
 
 Use this repo when the task is mainly about fiction craft:
 
-- chapter or scene planning
+- scene, chapter, arc, volume, or whole-story planning
+- standalone story synopsis or canon-document structure
 - prose continuation
 - rewrite while preserving voice
 - structural review of a chapter
@@ -37,6 +38,7 @@ If your main problem is project recovery, chapter-state tracking, or workspace g
 
 - `Use novel-writing. Review this chapter and give concrete findings with locations, not vague feedback.`
 - `Plan a chapter that introduces the rival clearly and moves the relationship forward.`
+- `Build a standalone volume outline that separates pre-story state, causal story, author truth, and reveal boundaries.`
 - `Continue this scene without flattening the author's voice or cutting style-bearing detail.`
 
 ## Install

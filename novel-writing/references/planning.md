@@ -1,6 +1,6 @@
 # Planning
 
-Use this file before drafting fiction prose.
+Use this file before drafting a scene or chapter. For an arc, volume, whole-story outline, story synopsis, or standalone canon document, also read `story-outline-and-causal-summary.md`.
 
 ## Goal
 

@@ -17,6 +17,7 @@ $requiredFiles = @(
     'references/revision-checklist.md',
     'references/scene-causality-and-agency.md',
     'references/scene-and-structure.md',
+    'references/story-outline-and-causal-summary.md',
     'references/style-fidelity.md',
     'scripts/check_manuscript_text.py'
 )
