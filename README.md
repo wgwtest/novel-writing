@@ -16,6 +16,7 @@ It helps Codex:
 
 - plan scenes, chapters, arcs, and whole stories with an explicit causal spine
 - draft or continue fiction prose without collapsing everything into summary
+- keep dialogue embodied without attaching arbitrary gestures to every line
 - review prose with concrete findings instead of soft impressions
 - protect style-bearing material during revision
 - check whether scenes obey realism and access limits
@@ -40,6 +41,7 @@ If your main problem is project recovery, chapter-state tracking, or workspace g
 - `Plan a chapter that introduces the rival clearly and moves the relationship forward.`
 - `Build a standalone volume outline that separates pre-story state, causal story, author truth, and reveal boundaries.`
 - `Continue this scene without flattening the author's voice or cutting style-bearing detail.`
+- `Review this meeting or laboratory scene for transcript-like dialogue, decorative gestures, and procedural action that does not change the human exchange.`
 
 ## Install
 

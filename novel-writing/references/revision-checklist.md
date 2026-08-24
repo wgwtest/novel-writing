@@ -29,6 +29,7 @@ If there are no findings, say so explicitly and mention any residual uncertainty
 - viewpoint overreach
 - pacing
 - dialogue clarity
+- dialogue embodiment
 
 ## Minimum Review Procedure
 
@@ -61,11 +62,22 @@ Ask:
 - does evidence or a failed attempt create a reason for the next explanation?
 - can the action occur in the established space and order?
 
-### 4. Check chapter interfaces
+### 4. Check dialogue embodiment
+
+Ask:
+
+- do characters merely take turns delivering information?
+- does the listener's reaction change the next line, action, or tactic?
+- are nearby actions functional, decorative, or merely procedural?
+- does a meeting read like minutes, or a laboratory scene like a technical log?
+- have emotion labels and interchangeable gestures been added where a scene-specific response is needed?
+- does the viewpoint select reactions, or does narration visit everyone in turn?
+
+### 5. Check chapter interfaces
 
 Ask whether positions, knowledge, ongoing actions, injuries, objects, unresolved questions, and responsibility pass cleanly into and out of adjacent prose.
 
-### 5. Check style preservation
+### 6. Check style preservation
 
 Ask:
 
@@ -73,7 +85,7 @@ Ask:
 - has voice been replaced with generic polish?
 - have emotionally loaded details been neutralized?
 
-### 6. Check realism
+### 7. Check realism
 
 Ask:
 
@@ -83,7 +95,7 @@ Ask:
 - does a crowd's speech reflect status, information, risk, and speaking cost?
 - does spectacle retain a mechanism and a physical or social consequence?
 
-### 7. Check manuscript hygiene when delivering plain text
+### 8. Check manuscript hygiene when delivering plain text
 
 Run the bundled checker as `python <skill-directory>/scripts/check_manuscript_text.py <file-or-directory>` when the output format and access allow it. Treat heuristic warnings as review prompts, not automatic literary defects.
 
@@ -97,6 +109,9 @@ Flag these aggressively:
 - "cleaner prose is automatically better prose"
 - "because the writer knows a hidden motive, the prose can announce it before the action reveals it"
 - "because a detail matters later, a character may speak as if they already know it"
+- "adding gestures means the dialogue is now embodied"
+- "equipment is moving, so the characters must be active"
+- "every important character needs a spoken reaction"
 
 ## Example Finding Shape
 

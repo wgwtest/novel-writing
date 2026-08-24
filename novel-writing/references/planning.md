@@ -22,8 +22,19 @@ For high-conflict, professional, multi-party, or information-asymmetric scenes, 
 - a cognition table from `cognition-layers-and-language.md`
 - a responsibility map from `scene-causality-and-agency.md`
 - an entry/exit state contract for adjacent-chapter continuity
+- a dialogue behavior map from `dialogue-and-behavior.md` when sustained conversation carries the conflict or discovery
 
-Do not force all three tables onto ordinary scenes.
+Do not force all of these aids onto ordinary scenes.
+
+For a dialogue behavior map, record only what materially shapes the exchange:
+
+- each consequential speaker's local objective
+- what each person will not say directly
+- the pressure carried by the viewpoint
+- the usable space, objects, tasks, and interruptions
+- the beat that forces someone to change tactic
+
+Do not preassign a speech to every participant. Plan responses, refusals, reversals, and decisions rather than a round-robin agenda.
 
 ## Planning Sequence
 
@@ -95,6 +106,8 @@ Record the entry state inherited from adjacent prose and the exit state handed f
 - using hidden author knowledge as if the reader already has it
 - overloading the chapter with too many equal priorities
 - planning events but not planning what the reader understands when they happen
+- assigning information speeches without planning how listeners react or change tactic
+- treating decorative gestures or equipment operation as character action
 - leaving the ending emotionally or structurally flat
 
 ## Quick Check
@@ -105,4 +118,5 @@ Before drafting, verify all answers:
 - Do I know who owns the viewpoint?
 - Do I know what the reader must understand by the end?
 - Do I know what must remain uncertain?
+- In a dialogue-heavy scene, do I know what each person wants and which response changes the exchange?
 - Do I know what specific change closes the chapter?

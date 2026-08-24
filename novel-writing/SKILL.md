@@ -41,6 +41,7 @@ Read:
 - `references/story-outline-and-causal-summary.md` for an arc, volume, or whole-story outline, a story synopsis, or a standalone canon/theory document
 - `references/cognition-layers-and-language.md` when knowledge, motive, or disclosure drives decisions
 - `references/scene-causality-and-agency.md` for conflict, responsibility, action order, or chapter interfaces
+- `references/dialogue-and-behavior.md` when a planned meeting, interview, consultation, investigation, or technical scene could collapse into turn-taking exposition
 - `references/scene-and-structure.md` when chapter flow is the main concern
 - `references/realism-constraints.md` when the chapter depends on real-world limits
 
@@ -53,6 +54,7 @@ Read:
 - `references/character-introductions.md`
 - `references/cognition-layers-and-language.md` when decisions or dialogue depend on unequal knowledge, judgment, or motive
 - `references/scene-causality-and-agency.md` for conflict, movement, authority, or continuity
+- `references/dialogue-and-behavior.md` for sustained dialogue, meetings, interviews, interrogations, domestic confrontations, or laboratory and research scenes
 - `references/scene-and-structure.md`
 - `references/style-fidelity.md`
 - `references/realism-constraints.md` when the scene depends on real-world constraints
@@ -64,6 +66,7 @@ Use when the user wants critique, diagnosis, or revision advice on existing fict
 Read:
 
 - `references/revision-checklist.md`
+- `references/dialogue-and-behavior.md` when dialogue reads like a transcript, characters take orderly turns, or the scene contains motion but little human response
 - then load the specific reference files that match the problems you find
 
 ## Long-Fiction Context Strategy
@@ -143,6 +146,12 @@ Separate the experiential center, problem owner, decision owner, domain actor, a
 
 Make consequential scenes legible as perception or misinterpretation, narrowed options, decision, action, consequence, and reassessment. Treat that chain as a diagnostic scaffold, not a mandatory formula or a ban on omniscient and multi-viewpoint fiction.
 
+### Dialogue Must Happen Through Behavior
+
+Sustained dialogue must remain embodied and consequential. A scene is not active merely because characters handle props or instruments. Distinguish functional action, which reveals strategy or changes the next beat, from decorative action and procedural action.
+
+Do not repair transcript-like prose by attaching an emotion label or arbitrary gesture to every line. Action density is not a quality target, and beats must not be distributed evenly. Rapid dialogue may remain untagged when voice and pressure are clear. Add a behavioral beat where information lands, a lie is tested, power shifts, restraint fails, or a decision changes.
+
 ### Every Scene Segment Must Earn Its Place
 
 Every chapter or functional segment should be able to answer:
@@ -199,6 +208,7 @@ If the fiction project already has local rules, style contracts, or manuscript-l
 - [Story Outline and Causal Summary](references/story-outline-and-causal-summary.md): story-first ordering, causal bridges, knowledge layers, and final-form outline checks
 - [Cognition Layers and Language](references/cognition-layers-and-language.md): information source, epistemic status, decisions, and disclosure
 - [Scene Causality and Agency](references/scene-causality-and-agency.md): POV pressure, responsibility, action topology, and continuity
+- [Dialogue and Behavior](references/dialogue-and-behavior.md): embodied exchange, functional action, transcript prevention, and dialogue-heavy professional scenes
 - [Character Introductions](references/character-introductions.md): first-entry rules for characters
 - [Scene and Structure](references/scene-and-structure.md): scene progression and chapter shape
 - [Style Fidelity](references/style-fidelity.md): preserving authorial texture during revision
