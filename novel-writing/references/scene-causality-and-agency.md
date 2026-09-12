@@ -63,13 +63,15 @@ Prefer evidence or a failed attempt before explanation when the character has no
 
 ## Dialogue Adjacency
 
-For each consequential exchange, check:
+At consequential turns, privately check whether the exchange is intelligible in context:
 
-- whether the reply answers, evades, tests, or misunderstands the previous beat
+- whether speech, action, silence, or a shift of attention fits the participants' knowledge and present situation
 - whether a new arrival has enough context to respond plausibly
 - whether technical detail changes action rather than pausing it
 - whether the speaker has authority to make the promise or decision
-- whether an intentional evasion has visible motive or pressure
+- whether an evasion is plausible without prematurely revealing its motive
+
+These checks test coherence, not conversational completeness. A question may remain unanswered; ordinary pauses, distraction, and unresolved ambiguity need no explanatory closure. The prose need not classify each response as an answer, evasion, or refusal. If the exchange already reads clearly, leave the diagnostic out of the scene. See [Dialogue and Behavior](dialogue-and-behavior.md#causal-coherence-is-a-diagnostic-not-narration) for the distinction between useful silence and redundant response labels.
 
 ## Reveal and Verification Timing
 

@@ -152,6 +152,8 @@ Sustained dialogue must remain embodied and consequential. A scene is not active
 
 Do not repair transcript-like prose by attaching an emotion label or arbitrary gesture to every line. Action density is not a quality target, and beats must not be distributed evenly. Rapid dialogue may remain untagged when voice and pressure are clear. Add a behavioral beat where information lands, a lie is tested, power shifts, restraint fails, or a decision changes.
 
+Causal and response checks are author-side diagnostics, not a sentence-by-sentence narration template. Let context, dialogue, action, and pauses carry the exchange; direct statements of silence remain valid. Use the distinctions in [Dialogue and Behavior](references/dialogue-and-behavior.md#causal-coherence-is-a-diagnostic-not-narration) rather than routinely explaining whether a remark was answered.
+
 ### Every Scene Segment Must Earn Its Place
 
 Every chapter or functional segment should be able to answer:

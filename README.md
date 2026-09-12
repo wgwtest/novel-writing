@@ -17,6 +17,7 @@ It helps Codex:
 - plan scenes, chapters, arcs, and whole stories with an explicit causal spine
 - draft or continue fiction prose without collapsing everything into summary
 - keep dialogue embodied without attaching arbitrary gestures to every line
+- distinguish author-side dialogue checks from prose, preserving natural silence without annotating every response
 - review prose with concrete findings instead of soft impressions
 - protect style-bearing material during revision
 - check whether scenes obey realism and access limits

@@ -37,7 +37,7 @@ Procedural action may be necessary and technically accurate, but a scene full of
 
 ## Build the Exchange as a Behavior Chain
 
-For each consequential exchange, test this chain:
+When diagnosing a consequential exchange, use this chain privately:
 
 ```text
 speaker has a local objective
@@ -47,9 +47,38 @@ speaker has a local objective
 -> that response changes the next line, action, or tactic
 ```
 
-Do not make every reply a complete answer. A plausible reply may evade, test, bargain, redirect, misunderstand, delay, or answer only the safest part.
+Read this at the exchange level, not as a requirement that every line receive a response or cause a new decision. The effect may be delayed or remain unresolved. A plausible reply may evade, test, bargain, redirect, misunderstand, delay, or answer only the safest part.
 
 Do not force a behavioral beat after every line. **Rapid dialogue may remain untagged** when the voices, spatial state, and pressure are already clear. Add beats at changes, not at a fixed density.
+
+## Causal Coherence Is a Diagnostic, Not Narration
+
+Coherence means the exchange is plausible in its context, including what remains unknown. It does not mean every remark must be answered, every silence explained, or every connection made explicit. The writer's check should result in readable scene prose, not a report on how the dialogue works.
+
+Choose the treatment according to what the passage needs:
+
+- **The dialogue or action already carries the response:** keep that material and omit a redundant label about whether the speaker answered, ignored, or took up the remark.
+- **Silence itself is worth stating:** a direct sentence such as “He said nothing” can establish a pause, mood, refusal, or ordinary nonresponse. It does not need an added gesture, a disclosed motive, or an immediate plot consequence to be legitimate.
+- **A genuine gap makes a consequential choice unintelligible:** supply the missing access, context, or action. Calling it an evasion or saying the character did not answer cannot repair that gap.
+- **The scene intentionally leaves something unresolved:** preserve the uncertainty. Do not invent an explanation merely to close an exchange.
+
+This is a judgment about narrative function, not a phrase blacklist. Replacing every “did not answer” with “stayed silent,” a smile, or a turn of the head reproduces the same mechanical habit. Check the local meaning as well: responding to the substance without joining an argument is still a response; “did not keep persuading” presupposes that persuasion was underway.
+
+For example:
+
+```text
+“You know everything now,” Cal said.
+Mira did not take up that remark. She pushed the envelope back. “That's your handwriting.”
+```
+
+The reply already responds to the accusation. A sufficient revision is:
+
+```text
+“You know everything now,” Cal said.
+Mira pushed the envelope back. “That's your handwriting.”
+```
+
+Nothing needs to replace the removed label. Conversely, a plain “He said nothing” may be exactly the desired sentence elsewhere; assess the surrounding prose rather than deleting it on sight.
 
 ## Control Density and Rhythm
 
@@ -144,10 +173,11 @@ Do not preassign a speech to every participant. Plan responses and reversals, no
 1. Mark long runs where speakers alternate without the physical or social situation changing.
 2. Classify nearby actions as functional action, decorative action, or procedural action.
 3. Find the lines where information lands, a lie is tested, power shifts, or a decision changes.
-4. Check whether the listener's response changes the next beat. If it does not, repair the interaction rather than decorating the sentence.
+4. At consequential turns, check whether the exchange registers pressure, sustains uncertainty, or changes what follows. Ordinary connective lines and pauses need not each perform a turn. Repair a genuine gap rather than decorating it.
 5. Remove interchangeable gestures and redundant emotion labels.
 6. Preserve clean rapid dialogue where voice and pressure already carry the scene.
 7. Recheck viewpoint: retain only the reactions this experiential center could notice and interpret now.
+8. Read response labels in context: remove duplicated commentary, retain useful direct silence, and check that a claimed nonresponse or discontinued action actually occurred.
 
 ## Common Failed Repairs
 
