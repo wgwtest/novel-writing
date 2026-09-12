@@ -1,6 +1,6 @@
 # Publication Copy
 
-Status: prepared, not posted. Publication record: [status.md](status.md).
+Status: a bilingual adaptation is published as [Discussions #1](https://github.com/wgwtest/novel-writing/discussions/1). The platform-specific copies below remain drafts, not X or Chinese-social-platform posts. Publication record: [status.md](status.md).
 
 Publish the repository documentation first, then verify the example and feedback links anonymously. The following are AI-assisted drafts for the maintainer's own account or a community that permits project sharing. Observe each destination's current AI-content and self-promotion rules. Do not scatter identical posts across unrelated discussions.
 
@@ -78,7 +78,7 @@ Codex skill for fiction planning and revision: grounded viewpoints, consequentia
 
 Topics: `codex`, `agent-skills`, `creative-writing`, `fiction`, `novel-writing`, `storytelling`, `writing-tools`.
 
-Do not replace existing relevant topics without inspecting them. These metadata changes have not been applied.
+The description has been applied. Existing relevant topics were preserved; `agent-skills` and `writing-tools` were added on 2026-09-12. No unrelated repository settings were changed.
 
 ## Reply Pattern for Genuine Feedback
 

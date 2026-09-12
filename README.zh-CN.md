@@ -50,6 +50,8 @@ npx skills add https://github.com/wgwtest/novel-writing --skill novel-writing
 
 在安装提示中选择 Codex，检查安装范围。该命令也列在[项目的 skills.sh 页面](https://skills.sh/wgwtest/novel-writing/novel-writing)上；CLI 的依赖和遥测政策以其文档为准。手动安装和 Windows 开发链接方式见[英文安装说明](README.md#install)。
 
+也可以直接请 Codex 内置的 `skill-installer` 安装 GitHub 仓库 `wgwtest/novel-writing` 中的 `novel-writing` 目录。它支持下载方式，适合作为 Git 连接失败时的另一条安装路径。
+
 然后试用：
 
 ```text

@@ -1,6 +1,6 @@
 # Directory Submission Packet
 
-Prepared 2026-09-12. These are candidate entries and draft PR bodies, **not submitted PRs**. Recheck current upstream rules, section names, and open/closed PRs before sending. Web retrieval can be cached; no duplicate clearance or acceptance is claimed.
+Prepared and executed 2026-09-12. Both proposals have been submitted: [junminhong #48](https://github.com/junminhong/awesome-agent-skills/pull/48) and [heilcheng #487](https://github.com/heilcheng/awesome-agent-skills/pull/487). They were open and unmerged at the final check; submission is not acceptance. The preparation notes below are retained for context; the linked PRs contain the actual entries and bodies. Live README and issue/PR checks found no duplicate before submission.
 
 ## 1. junminhong/awesome-agent-skills
 
@@ -43,7 +43,7 @@ Examples are constructed editorial illustrations, not benchmark results.
 Platform claim: Codex only.
 ```
 
-The body becomes accurate as a submission only after the two-README diff exists and the example links are public. Respect the upstream PR template and complete only checks actually verified, including the Verified commit requirement.
+Executed as a two-line, two-README change with matching metadata and alphabetical placement. The Chinese description was adapted to the target README's traditional Chinese. GitHub verified the signature of commit `d957313bbf5254140d1ac8a7dff8a98559e66911`; the public example links were checked before the PR was opened.
 
 ## 2. heilcheng/awesome-agent-skills
 
@@ -78,7 +78,7 @@ Affiliation: project maintainer; prepared with AI assistance.
 Documented host: Codex. License: MIT.
 ```
 
-Before submission, run the build required by the current contribution guide in a permitted checkout and report its real result. It has **not** been run in this campaign preparation. Do not tick a passing-build checkbox based on the upstream project's CI or this repository's unrelated package tests.
+Executed as a one-line addition beside the existing community prose-writing entry, without introducing a category. In the upstream `website/` checkout, dependency installation and `npm run build` passed, including TypeScript and five generated static pages. The initial dependency download stalled; a retry with bounded fetch settings completed. No website code or lockfile changes were included. GitHub verified the signature of commit `8dc1deba1f911b9136889df7195c206741d366d9`.
 
 ## Existing Distribution and Deferred Channels
 

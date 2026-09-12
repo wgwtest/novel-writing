@@ -2,23 +2,26 @@
 
 As of 2026-09-12. Local source baseline: `65886fd` on `main`.
 
-Execution resumed after the user restored filesystem and network access. Live remote `main` matched the source baseline, GitHub authenticated as the maintainer with repository push permission, and the package checks passed again. Publication and directory submissions are in progress; the ledger below records only verified outcomes.
+The first launch is published. After access was restored, live remote `main` matched the source baseline, GitHub authenticated as the maintainer with push permission, and the package checks passed again. The material commit is [`b674da8`](https://github.com/wgwtest/novel-writing/commit/b674da826dab41950050ba26f4e8a0140bfa2ba4). Two directory PRs and a bilingual announcement are public; directory acceptance and campaign effectiveness remain unproven.
 
 ## Actual State
 
 | Item | State | Evidence / next dependency |
 | --- | --- | --- |
-| English README refresh | Written locally | [README](../../README.md); not committed or published |
-| Chinese landing page | Written locally | [中文介绍](../../README.zh-CN.md); not committed or published |
-| Three bilingual teaching cases | Written locally | [Examples](../../examples/README.md); original AI-assisted illustrations, not measured A/B runs |
-| Public-safe feedback intake | Written locally | [Issue template](../../.github/ISSUE_TEMPLATE/scene_feedback.md); requires publication to activate |
-| English and Chinese posts | Drafted, not posted | [Publication copy](launch-copy.md) |
-| Two directory proposals | Drafted, not submitted | [Submission packet](directory-submissions.md); live duplicate/rule checks still required |
+| English README refresh | Published | [README](../../README.md); includes quick start and an illustrative dialogue excerpt |
+| Chinese landing page | Published | [中文介绍](../../README.zh-CN.md); anonymous public content checked against the committed blob |
+| Three bilingual teaching cases | Published | [Examples](../../examples/README.md); original AI-assisted illustrations, not measured A/B runs |
+| Public-safe feedback intake | Published | [Issue template](../../.github/ISSUE_TEMPLATE/scene_feedback.md); anonymous public content checked |
+| Bilingual project announcement | Published | [Discussions #1](https://github.com/wgwtest/novel-writing/discussions/1); anonymous HTTP 200 and both language titles verified |
+| X and Chinese-social-platform posts | Not posted | [Copy is prepared](launch-copy.md); browser page navigation still timed out after permissions were restored; no account session established |
+| junminhong directory proposal | Submitted, open | [PR #48](https://github.com/junminhong/awesome-agent-skills/pull/48); two matching entries; signed commit verified |
+| heilcheng directory proposal | Submitted, open | [PR #487](https://github.com/heilcheng/awesome-agent-skills/pull/487); one-line entry; local website build passed; signed commit verified; hosted preview needs upstream team authorization |
+| Repository discovery metadata | Updated | Description refreshed; existing topics retained and two relevant topics added |
 | Existing skills.sh presence | Previously indexed | [Directory page](https://skills.sh/wgwtest/novel-writing/novel-writing); not a campaign accomplishment |
-| Local validation | Passed | 20 tests; 13 package files checked; 10 Markdown documents with 41 relative links and balanced code fences; `git diff --check` passed |
-| Fresh install through skills CLI | Not run | Command checked against the public directory; network restrictions prevented a new-install smoke test |
-| Official skill-installer smoke test | Passed | Downloaded the public package to an isolated temporary destination; the user's installed skill was not changed |
-| New remote commit / PR / post | None created | No public publication URL exists for these changes |
+| Local validation | Passed | 20 tests; 13 package files checked; 10 Markdown documents with 40 relative links and balanced code fences; `git diff --check` passed |
+| Fresh install through skills CLI | Failed on this host | Two isolated attempts failed in Git clone transport (connection reset / connection failure); telemetry disabled; no general installer-success claim |
+| Official skill-installer smoke test | Passed | Public-package download to an isolated destination succeeded; all 13 files match after CRLF/LF normalization; the user's installed skill was not changed |
+| Independent review | Passed | No critical, important, or minor findings; source package unchanged, example logic and local links checked |
 
 ## Resolved Initial Publication Blocker
 
@@ -30,17 +33,17 @@ The first package-check attempt could not find `python` in the command environme
 
 The user has already authorized the agent to own the promotion workflow.
 
-## Resume Order
+## Remaining Work
 
-1. Restore a permitted GitHub channel; inspect live `main` and preserve any new upstream or local changes. Review the exact documentation scope before committing. No skill version tag is required for these public-documentation-only changes.
-2. Publish the README, examples, and feedback template together. Verify their anonymous public links; record the actual commit URL below. Do not publish posts containing example links before those files are public.
-3. Check the two candidate directories for duplicates and current rules. Submit one focused PR per eligible directory, meet each validation/signing requirement, and record the resulting PR URL. A submitted PR is not an accepted listing.
-4. On an available authorized social account, check platform/community rules, then publish the matching post. No account creation, paid boost, unsolicited DM, or vote solicitation is part of this packet.
-5. Review actual feedback when a follow-up run is requested or explicitly scheduled. No background or recurring job has been created by preparing these documents.
+1. Respond to the two directory maintainers if they request changes. Use the existing PRs, not duplicate submissions. Neither listing has been accepted at this checkpoint.
+   The Vercel bot on heilcheng #487 requests authorization by the upstream Vercel team for its hosted preview. That is separate from the successful local build and must be handled by that team's authorized member; no authorization link was followed and no permissions were changed.
+2. Social posting needs a working browser connection and a usable authorized account. No passwords were requested, no new account was created, and no post was sent through an unverified identity.
+3. Review actual scene feedback and refine the skill only when a concrete finding warrants it. These documentation updates do not justify a new skill version tag.
+4. No recurring monitor or background posting job is configured. Later review requires a resumed or explicitly scheduled run; the ledger does not imply unattended monitoring.
 
 ## Measurement
 
-Use the first verified public publication as campaign day zero. Suggested learning target: five independent trials and three actionable feedback reports within two weeks; these are aspirations, not promised outcomes.
+Campaign day zero is 2026-09-12. A live GitHub API observation recorded 36 stars at 2026-09-12T09:37:43Z; this is a checkpoint, not evidence of campaign-attributed growth. Suggested learning target: five independent trials and three actionable feedback reports within two weeks; these are aspirations, not promised outcomes.
 
 - Record GitHub stars and directory installations separately, with source and observation time. Do not fill unavailable metrics with zero.
 - Cached search/directory snapshots are not a live growth baseline. No campaign-attributed growth is claimed.
@@ -50,4 +53,11 @@ Use the first verified public publication as campaign day zero. Suggested learni
 
 ## Publication Ledger
 
-No entries yet. For each actual publication record: date, channel/account, public URL, source commit, submission versus acceptance state, and any actionable response. Keep draft URLs out of the ledger.
+| Date (UTC) | Channel / account | Actual public artifact | State |
+| --- | --- | --- | --- |
+| 2026-09-12 | GitHub / wgwtest | [Material commit b674da8](https://github.com/wgwtest/novel-writing/commit/b674da826dab41950050ba26f4e8a0140bfa2ba4) | Pushed to main; public content verified |
+| 2026-09-12 09:36:51 | junminhong directory / wgwtest | [PR #48](https://github.com/junminhong/awesome-agent-skills/pull/48) | Open; commit d957313; two lines added; not merged |
+| 2026-09-12 | Repository Announcements / wgwtest | [Discussions #1](https://github.com/wgwtest/novel-writing/discussions/1) | Published; links point to the released documentation |
+| 2026-09-12 09:44:44 | heilcheng directory / wgwtest | [PR #487](https://github.com/heilcheng/awesome-agent-skills/pull/487) | Open; commit 8dc1deb; one line added; not merged |
+
+The directory forks and signed proposal branches are retained for future maintainer feedback. No stars, votes, testimonials, or third-party endorsements were manufactured or purchased.

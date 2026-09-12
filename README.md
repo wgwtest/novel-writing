@@ -47,6 +47,8 @@ npx skills add https://github.com/wgwtest/novel-writing --skill novel-writing
 
 Select Codex when prompted. This is a third-party installer; inspect its prompts and installation scope. For alternatives, see [Install](#install).
 
+You can also ask Codex's built-in `skill-installer` to install the `novel-writing` folder from `wgwtest/novel-writing`. Its download-based path is an alternative when a Git-based install cannot connect.
+
 Try a small scene first:
 
 ```text
