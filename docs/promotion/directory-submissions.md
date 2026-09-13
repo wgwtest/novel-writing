@@ -1,6 +1,6 @@
 # Directory Submission Packet
 
-Prepared and executed 2026-09-12. Both proposals have been submitted: [junminhong #48](https://github.com/junminhong/awesome-agent-skills/pull/48) and [heilcheng #487](https://github.com/heilcheng/awesome-agent-skills/pull/487). They were open and unmerged at the final check; submission is not acceptance. The preparation notes below are retained for context; the linked PRs contain the actual entries and bodies. Live README and issue/PR checks found no duplicate before submission.
+Initial proposals submitted 2026-09-12: [junminhong #48](https://github.com/junminhong/awesome-agent-skills/pull/48) and [heilcheng #487](https://github.com/heilcheng/awesome-agent-skills/pull/487). Follow-up submitted 2026-09-13: [VoltAgent #1052](https://github.com/VoltAgent/awesome-agent-skills/pull/1052). All three were open and unmerged at the 2026-09-13 check; submission is not acceptance. The preparation notes below are retained for context; the linked PRs contain the actual entries and bodies. Live README and issue/PR checks found no duplicate before each submission.
 
 ## 1. junminhong/awesome-agent-skills
 
@@ -80,8 +80,32 @@ Documented host: Codex. License: MIT.
 
 Executed as a one-line addition beside the existing community prose-writing entry, without introducing a category. In the upstream `website/` checkout, dependency installation and `npm run build` passed, including TypeScript and five generated static pages. The initial dependency download stalled; a retry with bounded fetch settings completed. No website code or lockfile changes were included. GitHub verified the signature of commit `8dc1deba1f911b9136889df7195c206741d366d9`.
 
+## 3. VoltAgent/awesome-agent-skills
+
+[Repository](https://github.com/VoltAgent/awesome-agent-skills) · [Contribution rules](https://github.com/VoltAgent/awesome-agent-skills/blob/main/CONTRIBUTING.md) · [Submitted PR #1052](https://github.com/VoltAgent/awesome-agent-skills/pull/1052)
+
+Submitted 2026-09-13 at 14:37:18 UTC. The guide requires an upstream link at the end of a matching community category, an author prefix, a description of at most ten words, and evidence of real community use. The README additionally requests third-person descriptions. Productivity and Collaboration already includes writing and book-related skills, so no new category was created.
+
+Actual entry:
+
+```markdown
+- **[wgwtest/novel-writing](https://github.com/wgwtest/novel-writing)** - Plans and revises fiction with viewpoint, dialogue, and style checks.
+```
+
+Title: `Add skill: wgwtest/novel-writing`. GitHub verified the signature of commit `291a0adb02ebeefb7198b1b4e161401f46fc439a`. An anonymous API read confirmed the public PR, expected fork and commit, and exactly one README addition with no deletions. It remained open and unmerged.
+
+The proposal discloses maintainer affiliation and AI assistance, limits the documented host to Codex, and distinguishes editorial examples from benchmarks. Public evidence supplied for maintainer review:
+
+- [Totechnology/ensemble-novel-writing attribution](https://github.com/Totechnology/ensemble-novel-writing#design-and-attribution) explicitly identifies this project as a source for its adaptation. This is public reuse evidence, not an endorsement or a measured user outcome.
+- [Previously merged Codex directory PR #29](https://github.com/composio-community/awesome-codex-skills/pull/29), merged on 2026-04-22. This is historical curation, not a new campaign result or an independent usage test.
+- Public releases date to April 2026 and continue through [v0.4.1-public](https://github.com/wgwtest/novel-writing/releases/tag/v0.4.1-public). Fresh source checks passed: 20 tests and 13 package files.
+
+Whether this evidence satisfies VoltAgent's community-use threshold remains the maintainers' decision. No acceptance or exposure outcome is claimed.
+
 ## Existing Distribution and Deferred Channels
 
 - [skills.sh listing](https://skills.sh/wgwtest/novel-writing/novel-writing): already discoverable before this campaign. Linking it is not a new listing submission. The [CLI documentation](https://skills.sh/docs/cli) describes installation telemetry; installation counts are not active-writer counts.
+- [SkillsMP FAQ](https://skillsmp.com/docs/faq), checked 2026-09-13: describes automatic GitHub indexing, a public `SKILL.md` with `name` and `description`, and a `claude-skills` or `claude-code-skill` topic. It says manual submission is coming later. This repository has the public manifest, but its documented host is Codex; no unverified Claude-compatibility topic was added. No manual submission was made. Public search did not establish whether it is indexed; absence from search is not proof of absence.
+- [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code): not submitted automatically. Its current recommendation rules require a human-authored submission through the web interface; an autonomous AI-authored recommendation is outside that route.
 - [Hacker News guidelines](https://news.ycombinator.com/newsguidelines.html): exclude from autonomous AI-written posting. Its rules prohibit generated or AI-edited text. No HN copy is supplied for posting.
-- Other lists and social platforms: no bulk submission. Review relevance and current posting rules, establish a usable authorized account, and publish one focused contribution before expanding. No paid promotion, account creation, direct-message campaign, or recurring posting job is configured.
+- Personal social promotion and account registration were stopped at the user's request. No new email or social account was created. Other directories require an individually relevant, rules-compliant proposal; no bulk submission, paid promotion, direct-message campaign, or recurring posting job is configured.
