@@ -87,8 +87,12 @@ Use this repo when the task is mainly about fiction craft:
 - structural review of a chapter
 - character introduction quality
 - realism constraints inside a scene
+- author hand-edits, chapter delivery, and project-local version handoffs
+- setting up a new fiction project with an agreed manuscript and feedback layout
 
-If your main problem is project recovery, chapter-state tracking, or workspace governance across a large novel, use [novel-project-strategy](https://github.com/wgwtest/novel-project-strategy) alongside this skill.
+For chapter deliveries, author hand-edits, and cross-session recovery, the skill now coordinates the project's formal manuscript, working revisions, and frozen feedback evidence. It follows the current novel project's own paths and source-of-truth files; it does not impose a global directory tree or chapter-state system. Writing and review tools can supply prose, while this skill checks the version handoff and reuses source-linked author feedback.
+
+Installing the skill does not create project folders. When you ask to create a fiction project, it presents the file and version scheme for your approval before creating directories; an already agreed scheme is reused without asking again.
 
 ## Example Prompts
 
@@ -97,6 +101,7 @@ If your main problem is project recovery, chapter-state tracking, or workspace g
 - `Build a standalone volume outline that separates pre-story state, causal story, author truth, and reveal boundaries.`
 - `Continue this scene without flattening the author's voice or cutting style-bearing detail.`
 - `Review this meeting or laboratory scene for transcript-like dialogue, decorative gestures, and procedural action that does not change the human exchange.`
+- `Set up a new novel project. Show me where formal chapters, working revisions, author edits, and reusable feedback cases will live before creating folders.`
 
 ## Install
 
@@ -158,7 +163,6 @@ If you want to compare runs, follow the [trial protocol](examples/README.md#try-
 
 ## Related Repos
 
-- [novel-project-strategy](https://github.com/wgwtest/novel-project-strategy): longform fiction workflow, reload order, chapter-state, and sync discipline
 - [project-engineering-strategy](https://github.com/wgwtest/project-engineering-strategy): engineering workflow governance for code projects
 
 ## Contributing

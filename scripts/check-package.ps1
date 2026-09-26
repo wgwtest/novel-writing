@@ -13,6 +13,7 @@ $requiredFiles = @(
     'references/character-introductions.md',
     'references/cognition-layers-and-language.md',
     'references/dialogue-and-behavior.md',
+    'references/manuscript-lifecycle-and-feedback.md',
     'references/planning.md',
     'references/realism-constraints.md',
     'references/revision-checklist.md',

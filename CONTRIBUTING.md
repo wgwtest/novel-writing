@@ -6,7 +6,7 @@ Thanks for improving this skill.
 
 - stronger examples for planning, drafting, or review
 - sharper guidance about what counts as a concrete narrative finding
-- better boundaries between this skill and project-governance skills
+- better boundaries between reusable manuscript workflow and each book's local rules
 - public-safe reference material that does not depend on private manuscripts
 - packaging and installation improvements that reduce friction
 

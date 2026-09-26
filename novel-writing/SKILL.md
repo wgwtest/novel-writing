@@ -1,23 +1,26 @@
 ---
 name: novel-writing
-description: Use when planning, drafting, revising, or reviewing fiction where character anchoring, viewpoint drift, implausible knowledge or decisions, unnatural dialogue, scene or chapter continuity, style fidelity, or grounded physical and institutional causality matter.
+description: Use when setting up a fiction project, planning, drafting, revising, or reviewing fiction where chapter versions, author feedback, character knowledge, scene causality, dialogue, or style fidelity matter.
 ---
 
 # Novel Writing
 
 ## Overview
 
-Use this skill for fiction work that needs narrative craft, not just sentence-level cleanup. It is designed for three stages: planning a scene, chapter, arc, or whole story; drafting or continuing prose; and reviewing finished fiction for concrete problems.
+Use this skill for fiction work that needs narrative craft, not just sentence-level cleanup. It covers planning, drafting or continuing prose, and reviewing finished fiction. When a task crosses chapter versions, it also coordinates the project's manuscript handoff and author-feedback learning.
 
 ## When to Use
 
 Use this skill when the user asks to:
 
 - plan a chapter, scene, arc, volume, whole-story outline, story synopsis, canon document, or reveal sequence
+- set up a fiction project that will keep formal chapters, working revisions, and author feedback across sessions
 - continue or rewrite fiction prose
 - check whether a chapter is structurally sound
 - review whether characters are introduced clearly
 - preserve an author's original voice while revising
+- compare an author's hand-edited chapter with an actual delivery and carry supported feedback into later work
+- deliver a revision within an existing project's manuscript and archive rules
 - test whether a scene obeys real-world limits such as visibility, procedure, age, or capability
 
 Do not use this skill for:
@@ -29,7 +32,7 @@ Do not use this skill for:
 
 ## Stage Selection
 
-First decide which stage the task belongs to.
+For project setup or work across manuscript versions, load the lifecycle reference as directed below. For prose tasks, decide which stage the task belongs to.
 
 ### 1. Planning
 
@@ -83,13 +86,13 @@ When the fiction project is long enough that loading the entire formal draft wou
 
 - If you are directly revising a chapter, read that chapter's full text.
 - If dialogue rhythm, psychological detail, ambiguity, flirtation, or body-detail writing matters, read the relevant full text instead of relying on summary material.
-- If structure cards conflict with prose, trust the prose and update the cards later.
+- If structure cards conflict with the project's authoritative prose, flag the discrepancy and use the prose as evidence for this task. Update cards only when the project's rules and current authorization allow it; an unreviewed author edit is not automatically accepted canon.
 - If the available structured context is insufficient, expand by targeted full-text reads, not by loading the whole novel.
 - Future-chapter prose is excluded by default unless a confirmed continuity dependency requires it.
 
-### Collaboration-state discipline
+### Manuscript and author-feedback stewardship
 
-For persistent chapter state, cross-session recovery, manuscript-layer synchronization, or parallel chapter ownership, use `novel-project-strategy`. Keep this skill focused on narrative work and adjacent-prose continuity.
+When creating a fiction project or working with chapter versions, a hand-edited or annotated author draft, a delivery, or cross-session recovery, read [Manuscript Lifecycle and Author Feedback](references/manuscript-lifecycle-and-feedback.md). This skill coordinates the setup or handoff among the current manuscript, working revisions, frozen evidence, and reusable author feedback; the project's own rules determine their paths and authority. Do not create a second version system or assume that a writing or review tool owns the project's formal manuscript. For parallel chapter ownership, follow the current project's explicit workflow.
 
 ## Hard Rules
 
@@ -194,7 +197,7 @@ If the fiction project already has local rules, style contracts, or manuscript-l
 
 ## Working Pattern
 
-1. Identify the stage.
+1. Identify whether the task is project setup, a prose stage, or work across manuscript versions or author feedback; load the lifecycle reference before any project-folder or manuscript-file edits in those cases.
 2. Identify the minimum context tier needed for the task.
 3. Load only the reference files needed for that stage.
 4. Load project-local outline, timeline, setting, and issue files before pulling extra prose.
@@ -216,3 +219,4 @@ If the fiction project already has local rules, style contracts, or manuscript-l
 - [Style Fidelity](references/style-fidelity.md): preserving authorial texture during revision
 - [Realism Constraints](references/realism-constraints.md): institutions, bodies, crowds, spectacle, and access limits
 - [Revision Checklist](references/revision-checklist.md): structured review output and manuscript hygiene
+- [Manuscript Lifecycle and Author Feedback](references/manuscript-lifecycle-and-feedback.md): project-local version stewardship, author-edit comparison, and evidence-based case retrieval
